@@ -2,15 +2,16 @@
 // This package uses http://github.com/fatih/color package to display colored output in consoles.
 // This is a simplest example of simploger
 //
-// func main() {
-// 	sl := &simploger.Simplogger {
-// 		Verbosity: 1,
-// 		Logfile: simploger.Logfile{
-// 			Win: "C:\\MyApp\\logs",
-// 			Nix: "var/log/myapp/logs",
-// 		},
-// 	},
-// }
+//   func main() {
+// 	  sl := &simploger.Simplogger {
+// 		  Verbosity: 1,
+// 		  Logfile: simploger.Logfile{
+// 			  Win: "C:\\MyApp\\logs",
+// 			  Nix: "var/log/myapp/logs",
+// 		  },
+// 	  },
+//   }
+//
 package simploger
 
 import (
